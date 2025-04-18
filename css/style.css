@@ -242,6 +242,7 @@ head {
 
 
 
+
 .cope-logo {
     width: calc((100% - 72px) / 4);
 }
@@ -407,8 +408,11 @@ head {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.foto-link {
+.portfolio-team:hover .paragraf {
     transform: translateY(0%);
+}
+
+.foto-link {
     position: relative;
     overflow: hidden;
 }
