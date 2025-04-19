@@ -24,6 +24,7 @@ head {
 
 
 .header-nav {
+    color: #404bbf;
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -541,6 +542,7 @@ head {
 }
 
 .social-link {
+    list-style: none;
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
