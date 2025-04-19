@@ -196,7 +196,7 @@ head {
     cursor: pointer;
 }
 
-
+  /* .section2 */
 
 .feature {
     padding: 120px 0 120px;
@@ -240,7 +240,10 @@ head {
     margin-bottom: 8px;
 }
 
-
+.icone-list {
+    width: 64px;
+    height: 64px;
+}
 
 
 .cope-logo {
@@ -316,7 +319,6 @@ head {
 .sociale-items {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sociale-link {
@@ -327,6 +329,7 @@ head {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sociale-link:hover, .sociale-link:focus {
@@ -336,6 +339,8 @@ head {
 
 
 .sociale-link-item {
+    width: 16px;
+    height: 16px;
     fill: #f4f4fd;
 }
 
@@ -441,7 +446,7 @@ head {
 
 
 .portfolio-team {
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
 }
 
@@ -534,7 +539,7 @@ head {
 .icone-style {
     width: 40px;
     height: 40px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-internet {
@@ -551,10 +556,7 @@ head {
     background-color: #31d0aa;
 }
 
-svg {
-    width: 24px;
-    height: 24px;
-}
+
 
 .sociale-icone {
     fill: #f4f4fd;
