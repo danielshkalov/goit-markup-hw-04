@@ -58,10 +58,13 @@ body {
     margin: 0;
 }
 
-.contac, .contacts-logo {
+.contac {
     color: #404BBF;
 }
 
+.contacts-logo {
+    color: #404BBF;
+}
 
 .contacts-logo {
     text-decoration: none;
